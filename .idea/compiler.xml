@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zrrd-blog-system" />
+        <module name="zrrd-blog-api" />
+        <module name="zrrd-blog-util" />
+        <module name="zrrd-blog-article" />
+        <module name="zrrd-blog-generator" />
+        <module name="zrrd-blog-question" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zrrd-blog" options="" />
+      <module name="zrrd-blog-api" options="-parameters" />
+      <module name="zrrd-blog-article" options="-parameters" />
+      <module name="zrrd-blog-generator" options="-parameters" />
+      <module name="zrrd-blog-question" options="-parameters" />
+      <module name="zrrd-blog-system" options="-parameters" />
+      <module name="zrrd-blog-util" options="-parameters" />
+    </option>
+  </component>
+</project>

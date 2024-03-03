@@ -1,0 +1,5 @@
+# 项目排除路径
+/zrrd-blog-api/target/
+/zrrd-blog-article/target/
+/zrrd-blog-generator/target/
+/zrrd-blog-util/target/
